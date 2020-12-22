@@ -21,7 +21,7 @@ customize_debian() {
 	# Debian 8 jessie: enable ssh root login
 	#sed -i 's/PermitRootLogin without\-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
-	echo tinyDebian > /etc/hostname
+	echo tinyWiFi > /etc/hostname
 
 	echo root:tinyDebian | chpasswd
 
